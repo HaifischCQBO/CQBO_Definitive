@@ -137,7 +137,7 @@ public class RegistroUsuario extends AppCompatActivity {
             e.printStackTrace();
         }
         return false;
-    } 
+    }
 
     // Defino los adaptadores para cada pais y asigno el que corresponde
     private void cargaSpinnerCiudad(int pais){
