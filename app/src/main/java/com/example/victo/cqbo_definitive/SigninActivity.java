@@ -108,7 +108,7 @@ public class SigninActivity  extends AsyncTask<String,Void,String>{
         if (result == ""){
             Toast.makeText(context, "Usuario o Contraseña Incorrectos", Toast.LENGTH_LONG).show();
         }else {
-            Toast.makeText(context, "Logeado!!! Al last!", Toast.LENGTH_LONG).show();
+            Toast.makeText(context, "Login Correcto", Toast.LENGTH_LONG).show();
 
 
         }
